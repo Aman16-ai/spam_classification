@@ -3,5 +3,6 @@ from django.urls import path,include
 from home.views import *
 urlpatterns = [
     path("",index,name="home"),
-    path("predictSpam/",predict)
+    path("predictSpam/",predict),
+    path("predictApi/",predictApi)
 ]
