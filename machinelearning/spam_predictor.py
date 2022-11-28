@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 import numpy as np
 import nltk
-# nltk.download('popular')
+nltk.download('popular')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
