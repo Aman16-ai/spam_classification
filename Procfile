@@ -1,0 +1,1 @@
+web: gunicorn spam_classifier.wsgi
